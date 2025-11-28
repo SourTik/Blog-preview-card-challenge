@@ -1,0 +1,131 @@
+/*  Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+> 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
+
+## Colors
+
+- Yellow: hsl(47, 88%, 63%)
+
+- White: hsl(0, 0%, 100%)
+
+- Gray 500: hsl(0, 0%, 42%)
+- Gray 950: hsl(0, 0%, 7%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px/1rem
+
+### Font
+
+- Family: [Figtree](https://fonts.google.com/specimen/Figtree)
+- Weights: 500, 800 */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* COLORS */
+    --yellow: hsl(47, 88%, 63%); 
+    --white: hsl(0, 0%, 100%);
+    --gray-500: hsl(0, 0%, 42%);
+    --gray-950: hsl(0, 0%, 7%);
+
+    /* FONT SIZE */
+    --text-md: 1rem;
+    --text-lg: 1.6rem;
+    --text-sm: 0.833rem;
+
+    /* FONT WEIGHT */
+    --font-weight-normal: 500;
+    --font-weight-bold: 800;
+
+    /* Mobile Resposiveness */
+
+    --mobile: 23.438rem;
+}
+
+
+body {
+    font-family: 'Figtree', sans-serif;
+    font-size: var(--text-md);
+    font-weight: var(--font-weight-normal);
+    background-color: var(--yellow);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    font-size: var(--text-lg);
+    font-weight: var(--font-weight-bold);
+}
+    
+
+.card {
+    padding: 2rem;
+    max-width: 25rem;
+    background-color: var(--white);
+    border-radius: 1rem;
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card-tag {
+    background-color: var(--yellow);
+    color: var();
+    font-size: var(--text-sm);
+    font-weight: var(--font-weight-bold);
+    padding: 0.4rem 1.2rem;
+    border-radius: 0.3rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.card-date {
+    font-size: var(--text-sm);
+    margin-bottom: 1rem;
+    color: var(--gray-950);
+}
+
+.card-heading {
+    margin-bottom: 1rem;
+    letter-spacing: -1px;
+    color: var(--gray-950);
+}
+
+.card-paragraph {
+    margin-bottom: 1rem;
+    color: var(--gray-500);
+}
+
+
+
+.attribution { 
+    font-size: var(--text-sm);
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
