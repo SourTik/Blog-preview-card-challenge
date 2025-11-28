@@ -80,7 +80,7 @@ p {
 
 .card {
     background-color: var(--white);
-    max-width: 20rem;
+    max-width: 23rem;
     padding: 1.5rem 1.3rem;
     border-radius: 20px;
     box-shadow: 5px 5px 0px 5px var(--gray-950);
@@ -91,9 +91,51 @@ p {
     max-width: 20rem;
     width: 100%;
     border-radius: 10px;
+    margin-bottom: 1rem;
 }
 
+.card-tag {
+    font-size: var(--text-sm);
+    font-weight: var(--font-weight-bold);
+    display: inline-block;
+    padding: 0.2rem 1rem;
+    background-color: var(--yellow);
+    border: 2px solid var(--yellow);
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
 
+.card-date {
+    font-size: var(--text-sm);
+    margin-bottom: 1rem;
+}
+
+.card-heading {
+    color: var(--gray-950);
+    letter-spacing: -1px;
+    margin-bottom: 1rem;
+}
+
+.card-paragraph {
+    color: var(--gray-500);
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-avatar {
+    max-width: 2rem;
+    margin-right: 0.5rem;
+}
+
+.profile-name {
+    font-size: var(--text-sm);
+    font-weight: var(--font-weight-bold);
+}
 
 .attribution { 
     font-size: var(--text-sm);
@@ -103,4 +145,5 @@ p {
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+    text-decoration: none;
 }
