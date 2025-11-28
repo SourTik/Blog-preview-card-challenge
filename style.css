@@ -57,65 +57,24 @@ The designs were created to the following widths:
     --mobile: 23.438rem;
 }
 
-
 body {
-    font-family: 'Figtree', sans-serif;
-    font-size: var(--text-md);
+    font-family: "Figtree", sans-serif;
     font-weight: var(--font-weight-normal);
-    background-color: var(--yellow);
-    height: 100vh;
+    font-size: var(--text-md);
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
-
 
 h1 {
     font-size: var(--text-lg);
     font-weight: var(--font-weight-bold);
 }
-    
 
-.card {
-    padding: 2rem;
-    max-width: 25rem;
-    background-color: var(--white);
-    border-radius: 1rem;
-}
-
-.card-image {
-    width: 100%;
-    border-radius: 1rem;
-    margin-bottom: 1rem;
-}
-
-.card-tag {
-    background-color: var(--yellow);
-    color: var();
-    font-size: var(--text-sm);
-    font-weight: var(--font-weight-bold);
-    padding: 0.4rem 1.2rem;
-    border-radius: 0.3rem;
-    display: inline-block;
-    margin-bottom: 1rem;
-}
-
-.card-date {
-    font-size: var(--text-sm);
-    margin-bottom: 1rem;
-    color: var(--gray-950);
-}
-
-.card-heading {
-    margin-bottom: 1rem;
-    letter-spacing: -1px;
-    color: var(--gray-950);
-}
-
-.card-paragraph {
-    margin-bottom: 1rem;
-    color: var(--gray-500);
+p {
+    font-size: var(--text-md);
 }
 
 
