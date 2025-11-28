@@ -147,3 +147,17 @@ p {
     color: hsl(228, 45%, 44%); 
     text-decoration: none;
 }
+
+@media (max-width: 23.438rem) {
+    h1 {
+        font-size: 1.4rem;
+    }
+    
+    p {
+        font-size: 0.8rem;
+    }
+
+    .attribution {
+        font-size: 0.8rem;
+    }
+}
